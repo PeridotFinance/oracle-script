@@ -1,0 +1,24 @@
+{
+  "name": "pyth-oracle-updater",
+  "version": "1.0.0",
+  "description": "Updates Pyth price feeds for SimplePriceOracle contract",
+  "main": "update-oracle.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node update-oracle.ts",
+    "update": "ts-node update-oracle.ts"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "ethers": "^6.10.0",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
